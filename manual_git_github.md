@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="style.css">
-
 # Manual configurar github por ssh
 
 Para configurar github por ssh necesitamos tener una cuenta de github e instalar git [Git](https://git-scm.com/)
@@ -8,12 +6,12 @@ Para configurar github por ssh necesitamos tener una cuenta de github e instalar
 
 Abrimos la terminal de git (git bash) y verificamos que git esta instalado
 
-<div class=div>
+<div style="display: flex; justify-content: center">
     <img src="img/git--version.png" alt="git version" class="git-version">
 </div>
+<br>
 
 Necesitaremos los paquetes npm y node.js para completar nuestra configuración
-
 
 ## Instalación de la clave en GitHub
 
@@ -23,10 +21,7 @@ Abrimos la terminal de git (git bash), hacemos un $git config --global user.name
 
 Luego como¡probamos si los datos modificados se han añadido correctamente con el comando $git config --list
 
-
-
 ## Añadir la clave a Agent
-
 
 ## Verificar la clave
 
