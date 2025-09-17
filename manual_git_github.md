@@ -6,7 +6,7 @@ Para configurar github por ssh necesitamos tener una cuenta de github e instalar
 
 Abrimos la terminal de git (git bash) y verificamos que git esta instalado
 
-<div style="display: flex; justify-content: center">
+<div style="display:flex; justify-content:center">
     <img src="img/git--version.png" alt="git version" class="git-version">
 </div>
 <br>
