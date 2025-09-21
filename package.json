@@ -1,0 +1,21 @@
+{
+  "name": "curso_25_26_m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node basicosJS/ejercicio1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salah-00x/Curso_25_26_m.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salah-00x/Curso_25_26_m/issues"
+  },
+  "homepage": "https://github.com/salah-00x/Curso_25_26_m#readme"
+}
