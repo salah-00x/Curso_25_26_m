@@ -6,8 +6,9 @@ console.log("Hola, Mundo:");
  * suma dos números y devuelve el resultado
  * @param {number} [a=0] - primer número a sumar con valor por defecto 0
  * @param {number} [b=0] - segundo numero a sumar con valor por defecto 0
- * @returns {number} -la suma de a y b
+ * @returns {number} - la suma de a y b
  */
+
 function suma(a=0, b=0){
     return a+b;
 }
