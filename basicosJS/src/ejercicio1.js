@@ -22,7 +22,7 @@ let edad = 18;
 let condicion = edad > 18? alert("Eres mayor de edad") : alert("Eres menor de edad");
 condicion;
 
-//En cso de que sea null o undefined ?? haré esto;
+//En caso de que sea null o undefined ?? haré esto;
 
 /*
 
