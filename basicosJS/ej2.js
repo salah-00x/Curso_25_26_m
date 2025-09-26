@@ -19,9 +19,9 @@ function simular(numTiradas) {
         
     }
     // encontramos el número que más se repite con Math.max
-    const maxRepeticiones = Math.max(...tirada);
-    const numeroMasRepetido = tirada.indexOf(maxRepeticiones) + 1;
+    const maxRep = Math.max(...tirada);
+    const numMasRep = tirada.indexOf(maxRep) + 1;
 
-    console.log('Después de ${numTiradas} tiradas, el número que más se repite es el ${numeroMasRepetido} con ${maxRepeticiones} repeticiones.');
-    return numeroMasRepetido;
+    console.log('Después de ${numTiradas} tiradas, el número que más se repite es el ${numMasRep} con ${maxRep} repeticiones.');
+    return numMasRep;
 }

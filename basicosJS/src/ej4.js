@@ -1,4 +1,5 @@
-//declaracion
+/*
+/declaracion
 
 const edades=[];
 const frutas=["pera","manzana","fresa"];
@@ -36,4 +37,8 @@ edades.filter((edad)=> edad >= 18)
 //funcion llamada impares cuadrado que le pase un array de numeros y que pase solo los numeros impares elevados al cudarado
 //Normalizar email que le pase un arraya de emails que puede llevar espacios al principi o al final del email y quiero que me los devuelva sin espacios
 //crear una funcion llamada filtarr longitud que le pase com param un array de nombres, un tamaño y me devuleva solo un array con los nombre cuya longitud es mayor o igual al param que le he pasado
-//normalizar nombres propios que le pase como para un arrya de nombres y me los devuelva con la letra capital de la primera letra e mayúscula
+//normalizar nombres propios que le pase como para un arrays de nombres y me los devuelva con la letra capital de la primera letra e mayúscula
+*/
+
+const nombres = new Array();
+
