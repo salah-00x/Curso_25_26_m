@@ -33,24 +33,30 @@ edades.filter((edad)=> edad >= 18)
 
 //Practica
 //1. dados un array de nombrres crear una funcion llamada mayusculas qqeu popngan como mayusculas todos los datos de ese array que le pase como parametro
-//2 .crear una funcin llamada precios con iva que al pasarle un array de precios me los devuelbva con el iva incluido
+//2 .crear una funcion llamada precios con iva que al pasarle un array de precios me los devuelbva con el iva incluido
 //3. funcion llamada impares cuadrado que le pase un array de numeros y que pase solo los numeros impares elevados al cudarado
 //4. Normalizar email que le pase un arraya de emails que puede llevar espacios al principi o al final del email y quiero que me los devuelva sin espacios
-//5. crear una funcion llamada filtarr longitud que le pase com param un array de nombres, un tamaño y me devuleva solo un array con los nombre cuya longitud es mayor o igual al param que le he pasado
+//5. crear una funcion llamada filtrar longitud que le pase com param un array de nombres, un tamaño y me devuleva solo un array con los nombre cuya longitud es mayor o igual al param que le he pasado
 //6. normalizar nombres propios que le pase como para un arrays de nombres y me los devuelva con la letra capital de la primera letra e mayúscula
 */
 
-const nombres = new Array("salah", "pepe", "juan");
+const names = new Array("salah", "pepe", "juan");
 
-function mayusculas(nombre){
+function mayusculas(name){
 
     for (let index = 0; index < nombres.length; index++) {
-            let nombre = nombres[index];
+            name = names[index];
 
-        for (nombre in nombres){
+        for (name in names){
             return nombre.toUpperCase();
         }
     }  
 }
+
+/*function preciosConIva(array , iva ){
+    ret Map.()
+}
+*/
     
 
+console.log(mayusculas)
